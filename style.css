@@ -83,7 +83,7 @@ p {
 }
 /* Hero Section */
 #hero {
-    background-image: url(./img/mine.jpeg);
+    background-image: url(./img/a.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -106,7 +106,7 @@ p {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 50px;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 #hero h1 {
@@ -188,6 +188,18 @@ p {
     position: relative;
     z-index: 1;
     overflow: hidden;
+}
+
+#services .service-item:nth-child(1) {
+    background-image: url(./img/solution.jpg);
+}
+
+#services .service-item:nth-child(2) {
+    background-image: url(./img/game.jpg);
+}
+
+#services .service-item:nth-child(4) {
+    background-image: url(./img/shopping.jpg);
 }
 
 #services .service-item::after {
@@ -460,6 +472,11 @@ p {
 
 #footer .social-item img:hover {
     filter: grayscale(0);
+}
+
+#footer p {
+    color: white;
+    font-size: 1.3rem;
 }
 /* End of Footer */
 
